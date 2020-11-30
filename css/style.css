@@ -1,0 +1,191 @@
+@media (prefers-color-scheme: dark) {
+
+@font-face{
+    font-family: alyx;
+    src: url(/fonts/aft-003-msc-regular-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: love;
+    src: url(/fonts/love.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    transition: .3s;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: black;
+    margin: 15px;
+
+}
+
+p{
+    font-family: alyx;
+    font-weight: 100;
+    font-size: 18px;
+    font-stretch: condensed;
+    margin: 30px 0;
+    color: #DCDCDC;
+}
+
+.width{
+    width: 365px;
+}
+
+a{
+    color: rgb(236, 236, 236);
+    font-size: 61px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    font-family: helvetica;
+    margin-top: 17px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+.title:hover{
+    color: #ffffff;
+    letter-spacing: -1.5px;
+}
+
+
+.items{
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.left{
+    float: left;
+}
+
+.midleft{
+    float: left;
+    margin-left: 15px;
+}
+
+.midright{
+    float: left;
+    margin-left: 15px;
+}
+
+.right{
+    float: left;
+    margin-left: 15px; 
+}
+
+.desc{
+    display: none;
+}
+
+img{
+    width: 365px;
+    cursor: pointer;
+}
+
+.video{
+    width: 200px;
+}
+}
+
+@media (prefers-color-scheme: light) {
+
+    @font-face{
+        font-family: alyx;
+        src: url(/fonts/aft-003-msc-regular-webfont.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face{
+        font-family: love;
+        src: url(/fonts/love.otf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    *{
+        transition: .3s;
+        box-sizing: content-box;
+    }
+    
+    body{
+        background-color: ;
+        margin: 15px;
+    
+    }
+    
+    .width{
+        width: 365px;
+    }
+    
+    a{
+        color: black;
+        font-size: 61px;
+        font-weight: 800;
+        letter-spacing: -1.5px;
+        font-family: helvetica;
+        margin-top: 17px;
+        text-align: left;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .title:hover{
+        color: #FFFFFF;
+        letter-spacing: -1.5px;
+    }
+    
+    p{
+        font-family: alyx;
+        font-weight: 100;
+        font-size: 18px;
+        font-stretch: condensed;
+        margin: 30px 0;
+    }
+    
+    .items{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    
+    .left{
+        float: left;
+    }
+    
+    .midleft{
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .midright{
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .right{
+        float: left;
+        margin-left: 15px; 
+    }
+    
+    .desc{
+        display: none;
+    }
+    
+    img{
+        width: 365px;
+        cursor: pointer;
+    }
+    
+    .video{
+        width: 200px;
+    }
+    }
