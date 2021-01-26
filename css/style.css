@@ -45,55 +45,13 @@ a{
     letter-spacing: -1.5px;
     font-family: helvetica;
     margin-top: 17px;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     text-decoration: none;
     display: block;
 }
 
-.title:hover{
-    color: #ffffff;
-    letter-spacing: -1.5px;
-}
 
-
-.items{
-    margin-top: 50px;
-    padding: 0px;
-}
-
-.left{
-    float: left;
-}
-
-.midleft{
-    float: left;
-    margin-left: 15px;
-}
-
-.midright{
-    float: left;
-    margin-left: 15px;
-}
-
-.right{
-    float: left;
-    margin-left: 15px; 
-}
-
-.desc{
-    display: none;
-}
-
-img{
-    width: 365px;
-    cursor: pointer;
-}
-
-.video{
-    width: 200px;
-}
-}
 
 @media (prefers-color-scheme: light) {
 
@@ -117,7 +75,6 @@ img{
     }
     
     body{
-        background-color: ;
         margin: 15px;
     
     }
